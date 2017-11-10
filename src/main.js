@@ -3,12 +3,18 @@
 import Vue from 'vue'
 import App from './App'
 
+import { KendoButtonGroup, KendoButtonsInstaller } from '@progress/kendo-buttons-vue-wrapper'
 import '@progress/kendo-ui'
+
 Vue.config.productionTip = false
+Vue.use(KendoButtonsInstaller)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App }
+  components: {
+    App,
+    KendoButtonGroup
+  }
 })

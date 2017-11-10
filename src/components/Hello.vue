@@ -1,5 +1,10 @@
 <template>
   <div class="hello">
+    <kendo-buttongroup>
+      <kendo-buttongroup-button> Button 1 </kendo-buttongroup-button>
+      <kendo-buttongroup-button> Button 2 </kendo-buttongroup-button>
+      <kendo-buttongroup-button> Button 3 </kendo-buttongroup-button>
+    </kendo-buttongroup>
   </div>
 </template>
 
